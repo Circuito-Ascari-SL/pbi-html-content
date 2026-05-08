@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "HtmlContentInternal",
+    "displayName": "HTML Content Internal",
+    "guid": "HtmlContentInternal1234567890ABC",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "Internal visual to render HTML content from a Power BI measure",
+    "supportUrl": "https://powerbi.microsoft.com",
+    "gitHubUrl": "",
+    "lint": true
+  },
+  "apiVersion": "3.8.0",
+  "author": {
+    "name": "Jose Carlos",
+    "email": "jose@ejemplo.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json"
+}

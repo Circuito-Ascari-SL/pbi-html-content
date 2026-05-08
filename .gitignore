@@ -1,0 +1,23 @@
+# Dependencias (NUNCA subir esto)
+node_modules/
+
+# Archivos temporales de compilación de Power BI
+.tmp/
+.cert/
+
+# Carpeta de distribución (donde se genera el .pbiviz)
+# Nota: Si quieres que otros se descarguen el visual listo para usar, 
+# suele ser mejor usar los "Releases" de GitHub que subir esta carpeta.
+# dist/
+
+# Logs de errores de NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configuración personal de VS Code
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

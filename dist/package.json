@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"Jose Carlos","email":"jose@ejemplo.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/HtmlContentInternal1234567890ABC.pbiviz.json"
+			}
+		],
+		"visual": {"name":"HtmlContentInternal","displayName":"HTML Content Internal","guid":"HtmlContentInternal1234567890ABC","visualClassName":"Visual","version":"1.0.0.0","description":"Internal visual to render HTML content from a Power BI measure","supportUrl":"https://powerbi.microsoft.com","gitHubUrl":""},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

@@ -1,0 +1,167 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "HTML",
+      "name": "html",
+      "kind": "Measure"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "values": {
+          "select": [
+            {
+              "bind": {
+                "to": "html"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "general": {
+      "displayName": "General",
+      "properties": {
+        "backgroundColor": {
+          "displayName": "Background color",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "transparentBackground": {
+          "displayName": "Transparent background",
+          "type": {
+            "bool": true
+          }
+        },
+        "padding": {
+          "displayName": "Padding",
+          "type": {
+            "numeric": true
+          }
+        },
+        "overflowMode": {
+          "displayName": "Overflow mode",
+          "type": {
+            "enumeration": [
+              {
+                "displayName": "Auto",
+                "value": "auto"
+              },
+              {
+                "displayName": "Hidden",
+                "value": "hidden"
+              },
+              {
+                "displayName": "Scroll",
+                "value": "scroll"
+              },
+              {
+                "displayName": "Visible",
+                "value": "visible"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "content": {
+      "displayName": "Content",
+      "properties": {
+        "horizontalAlign": {
+          "displayName": "Horizontal align",
+          "type": {
+            "enumeration": [
+              {
+                "displayName": "Left",
+                "value": "left"
+              },
+              {
+                "displayName": "Center",
+                "value": "center"
+              },
+              {
+                "displayName": "Right",
+                "value": "right"
+              }
+            ]
+          }
+        },
+        "verticalAlign": {
+          "displayName": "Vertical align",
+          "type": {
+            "enumeration": [
+              {
+                "displayName": "Top",
+                "value": "flex-start"
+              },
+              {
+                "displayName": "Middle",
+                "value": "center"
+              },
+              {
+                "displayName": "Bottom",
+                "value": "flex-end"
+              }
+            ]
+          }
+        },
+        "scale": {
+          "displayName": "Scale percent",
+          "type": {
+            "numeric": true
+          }
+        },
+        "showEmptyMessage": {
+          "displayName": "Show empty message",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "security": {
+      "displayName": "Security",
+      "properties": {
+        "sanitizeHtml": {
+          "displayName": "Sanitize HTML",
+          "type": {
+            "bool": true
+          }
+        },
+        "allowStyles": {
+          "displayName": "Allow styles",
+          "type": {
+            "bool": true
+          }
+        },
+        "allowSvg": {
+          "displayName": "Allow SVG",
+          "type": {
+            "bool": true
+          }
+        },
+        "allowImages": {
+          "displayName": "Allow images",
+          "type": {
+            "bool": true
+          }
+        },
+        "allowLinks": {
+          "displayName": "Allow links",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    }
+  },
+  "supportsLandingPage": true
+}
